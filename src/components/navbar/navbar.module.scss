@@ -1,0 +1,72 @@
+.navbar{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.logo {
+  
+  display: flex;
+  align-items: center;
+
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  .logo_e {
+    background-color: #facc15;
+    color: white;
+    font-weight: bold;
+    font-size:  1.25rem;
+    padding: 5px;
+    border-radius: 20px;
+    stroke: black;
+  }
+
+  .logo_commerce{
+    font-size: 1.125rem;
+    font-weight:600;
+  }
+
+}
+
+
+
+
+.nav_input{
+ 
+  
+  input{
+    width: 500px;  
+    height: 40px;  
+    padding: 0.5rem; 
+    border: none;
+    background-color: #F6F5F2;
+    border-radius: 10px;
+    
+  }
+}
+
+.icons_svg{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.search_nav {
+  position: absolute;
+
+  background: none;
+  border: none;
+
+  .search_icon {
+    position: relative;
+    bottom: 35px;
+    cursor: pointer;
+    left: 450px;
+  }
+}
